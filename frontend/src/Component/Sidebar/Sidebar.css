@@ -1,0 +1,27 @@
+.sidebar-icons svg {
+    fill: #fff !important;
+    transform: scale(1.5) !important;
+  }
+  
+  .sidebar-icons ul li {
+    padding-bottom: 20px;
+  }
+
+  .sidebar-icons ul li div {
+    justify-content: center;
+}
+.sidebar-icons {
+    padding-top: 0px;
+}
+
+.sidebar-icons ul li:first-child {
+    padding-bottom: 30px !important;
+}
+
+.selectboxoptn fieldset {
+    border-color: #fff;
+}
+
+.selectboxoptn label {
+    color: #fff !important;
+}

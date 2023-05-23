@@ -1,0 +1,107 @@
+.cricimg img, .video-cric video {
+    width: 100%;
+}
+
+.cricimg, .video-cric {
+    margin-top: -185px;
+    z-index: 0;
+    position: relative;
+}
+
+.video-cric::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -5px;
+    background: #00000075;
+}
+
+.add-banner-right-in-video {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    text-align: left;
+    z-index: 99;
+    z-index: 9999;
+}
+
+.add-banner-right-in-video h4 {
+    font-size: 20px;
+    font-family: Josefin Sans !important;
+    padding-top: 50px;
+}
+
+.add-banner-right-in-video h2 {
+    font-size: 30px;
+    margin: 10px 0 0;
+    font-family: Josefin Sans !important;
+    font-weight: 600;
+}
+
+.add-banner-right-in-video button {
+    background: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+}
+
+.adver-card{
+background: #F7D00B !important;
+border-radius: 12px !important;
+}
+
+.livescore-in-main-banner{position: absolute;top:27%;left:2%;width: 50%;}
+
+/* .tournament-league {
+    width: 100%;
+    text-align: left;
+}
+
+.upcoming-match-conduct, .upcoming-match, .dis-inline-blk {
+    display: inline-block;
+}
+
+.upcoming-match-conduct {
+    padding: 10px 10px 5px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+} */
+
+
+.tournament-league {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.upcoming-match-conduct, .upcoming-match, .dis-inline-blk {
+    display: inline-block;
+}
+
+.upcoming-match-conduct {
+    padding: 10px 10px 5px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.upcoming-match img {
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+@media (max-width:767.98px){
+.livescore-in-main-banner {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 100%;
+}
+}

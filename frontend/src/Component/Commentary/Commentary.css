@@ -1,0 +1,54 @@
+.table-head-score {
+    background: #ECEBEB;
+}
+
+.table-head-score th {
+    font-weight: 600;
+    color: #7c7474;
+}
+
+.red-status-highlite{
+    color:#D0021B; 
+    font-weight: 600;
+    text-align: left;
+    margin: 0 0 10px;
+}
+
+.score-on-process-priority {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.score-on-process-priorityleft, .score-on-process-priorityright {
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+}
+
+.fall-of-wicket {
+    margin-top: 30px;
+    text-align: left;
+    padding: 10px 15px;
+    background: #ECEBEB;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #7c7474;
+}
+
+p.wicket-fall-status {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.score-on-process-priority.secondary{margin-top: 30px;}
+
+.match-info {
+    margin-top: 40px;
+    text-align: left;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 40px;
+}

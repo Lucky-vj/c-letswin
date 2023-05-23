@@ -1,0 +1,70 @@
+.flex_container{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    background: rgba(146, 146, 146, 0.082);
+    padding: 10px;
+    margin: 10px 0px ;
+    border-radius: 10px;
+}
+
+.inner_container{
+    background-color: rgba(189, 189, 189, 0.151);
+    padding:10px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.inner_container_first{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inner_container_second{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.winning_quotes{
+    color: green;
+    background-color: rgba(0, 128, 0, 0.144);
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding: 10px 0px;
+}
+
+.highlights-league-table{margin-bottom: 35px;}
+
+.highlights-league-table .inner_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4.winning_quotes {
+    padding: 10px 15px;
+}
+
+.highlights-match-cricket img {
+    border-radius: 50%;
+    box-shadow: -1px -1px 5px #ccc;
+    width: 40px;
+    height: 40px;
+}
+
+.highlights-league-table .flex_container {
+    background: #8c8686;
+    padding: 0 10px;
+}
+
+.highlights-league-table .flex_container h3 {
+    color: #fff;
+}
+
+.highlights-league-table .flex_container img {
+    width: 40px;
+    height: 40px;
+}

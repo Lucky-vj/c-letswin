@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.css-1abc02a, .css-hn784z {
+    top: auto !important;
+    bottom: 30px;
+    right: 25px !important;
+    height: auto !important;
+    z-index: 99 !important;
+}
+
+.css-1abc02a button, .css-hn784z button {
+    opacity: 1;
+    background: transparent;
+    border: 3px solid #FDE04E;
+}
+
+.carouselouter {
+    position: relative !important;
+    overflow: visible !important;
+}
+.carouselouter::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    left: -50%;
+    top: -0.5px;
+}
+
+.lineup-background{
+    display: block !important;
+    position: relative !important;
+    background: url("http://localhost:3000/football-lineup.jpg") no-repeat center !important ;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    /* min-height: 80vh !important; */
+    /* width: 1200px !important;
+    height: 2000px !important; */
+    /* transform: rotate(0deg); */
+}
+
+.homeAwayTitle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.338) ;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.homeLineup{
+    background: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.awayLineup{
+    background: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.target-live-scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.target-live-score {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.country {
+    margin: 30px 0 20px;
+}
+
+.country .MuiListItemButton-root, .League .MuiListItemButton-root {
+    padding-left: 0px;
+    margin: 5px 0;
+}
+
+span.country-list, span.league-list, .country .MuiListItemText-primary, .League .MuiListItemText-primary {
+    font-weight: 600;
+}
+
+span.country-list, span.league-list{text-transform: uppercase;font-weight: 700;}
+
+.top-block {
+    font-family: Josefin Sans !important;
+    height: 40vh;
+}
+
+.top-block h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.target-live-score-high.left {
+    text-align: left;
+    padding-left: 44px;
+}
+
+.first-batting-high, .secnd-batting-high {
+    color: #fff;
+}
+
+.first-batting-high h3, .secnd-batting-high h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.first-batting-high h3 span, .secnd-batting-high h3 span {
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 27px;
+}
+
+.scoreboard{
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h3.bottom-block-head {
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+h3.bottom-block-head {
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+span.cicket-font span {
+    color: #f7d00b;
+}
+
+h3.bottom-block-head > span {
+    color: #000;
+}
+
+h1.livehead span {
+    color: #000;
+    font-weight: 800;
+}
+
+h1.livehead {
+    font-weight: 400;
+}
+
+img.team1 {
+    width: 18px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+img.team2 {
+    width: 18px;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.football-score {
+    background: #fff;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.block-point-outer {
+    display: flex;
+    margin-top: 24px;
+    padding-left: 40px;
+}
+
+.block-point-1, .block-point-2 {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+}
+
+.block-point-1 {
+    margin-right: 20px;
+    height: 30px;
+}
+
+span.team-name {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 5px 0 10px;
+    font-weight: 400;
+    color: #000;
+}
+
+img.team1-banner-point, img.team2-banner-point {
+    width: 21px;
+    position: relative;
+    top: 5px;
+}
+
+span.team-points {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carouselgrid {
+    background: #f8f8f8;
+    padding-top:0px !important;
+    padding-left: 0px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.css-hn784z {
+    display: none;
+}
+
+.css-1m9128y{
+    position: absolute;
+    right: 35px;
+    border: 45px;
+    z-index: 9;
+    margin-top: 0 !important;
+    width: auto !important;
+    bottom: 45px;
+}
+
+.css-1m9128y button:last-child {
+    position: relative;
+    left: 25px;
+}
+
+.css-1m9128y button:first-child {
+    position: relative;
+    right: 40px;
+}
+
+.football-score span {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.allgame-tab .MuiBox-root {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.league-held-table-main:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.league-held-table-team {
+    flex-direction: row-reverse;
+    justify-content: flex-end !important;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.league-held-table-team img {
+    margin-right: 8px;
+}
+
+.league-held-table-main {
+    width: 98%;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin: 15px 0 5px;
+}
+
+.league-held-table-main:nth-child(even) {
+    background: #f9f9f9;
+}
+
+
+.league-held-table-timing, .league-held-table-status {
+    width: 25%;
+}
+
+.league-held-table-timing {
+    justify-content: center;
+}
+
+.league-held-table-status {
+    justify-content: flex-end;
+}
+
+.league-held-name-main {
+    width: 100%;
+    /* justify-content: flex-start !important; */
+    background: #8c8686;
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0;
+    margin-top: 40px;
+}
+
+.league-held-name-main-icon, .league-held-name-main-text {
+    position: relative !important;
+    display: inline-block;
+}
+
+.league-held-name-main-text {
+    text-align: left;
+    margin: 0px !important;
+}
+
+.league-held-name-main-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.league-held-name-main-text span {
+    font-weight: 700;
+    color: #fff;
+}
+
+.league-held-table {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.vs-span {
+    margin: 0 11px;
+    font-size: 13px;
+    color: #000;
+}
+
+.league-held-table-team img {
+    height: 25px !important;
+    width: auto !important;
+}
+
+.item.pplr-league-item{min-height: 180px;}
+
+.league-held-table-main {
+    width: 100%;
+}
+
+.league-match-table-panel .league-held-table-main {
+    width: 98%;
+}
+
+
+
+@media (max-width:767.98px){
+
+    .top-block{height: auto !important;}
+    football-main-page .scoreboard {
+        padding-left: 20px !important;
+    }
+
+    .live-match-table-panel .league-held-table {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .live-match-table-panel .league-held-table-main {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 8px 0 5px;
+    }
+    
+    .live-match-table-panel .league-held-table .league-held-table-team {
+        width: 45%;
+        justify-content: center !important;
+    align-items: center !important;
+    }
+    
+    .league-match-table-panel .league-held-table {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .league-match-table-panel .league-held-table-main {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 8px 0 5px;
+    }
+    
+    .league-match-table-panel .league-held-table .league-held-table-team {
+        width: 45%;
+        justify-content: center !important;
+    align-items: center !important;
+    }
+    
+    .league-held-table-timing, .league-held-table-status {
+        width: 50%;
+        justify-content: center;
+    }
+
+}

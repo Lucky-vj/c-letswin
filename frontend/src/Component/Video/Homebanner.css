@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'grnotch';
+    src: url('../../fonts/GRNORCH.otf');
+  }
+
+.cricimg img, .video-cric video {
+    width: 100%;
+}
+
+.cricimg img{height: 110vh;}
+
+.cricimg-outer{position: relative;}
+
+.cricimg, .video-cric {
+    margin-top: -185px;
+    z-index: 0;
+    position: relative;
+}
+
+.cricimg::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -5px;
+    background: #00000075;
+}
+
+.banner-caption h1, .banner-caption h1 span {font-family: 'grnotch';color: #fff;}
+.banner-caption h1{font-size: 130px;letter-spacing: 5px;text-transform: uppercase;}
+.banner-caption h1 span{font-size: 40px; display: inline-block;margin: 0 10px;}
+.banner-content {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.banner-content {
+    position: absolute;
+    width: 100%;
+    bottom: 0 !important;
+    left: 0;
+    top: auto !important;
+}
+
+.banner-caption {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0px 5px !important;
+}
+ul.banner-list-home {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    list-style: none
+}
+ul.banner-list-home li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.banner-caption h1 {
+    margin-bottom: 0px !important;
+    text-align: left;
+    line-height: 1;
+}
+
+.register-btn-home a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 100px;
+    background: linear-gradient(270deg, #FDD50B 0%, #BD9E00 100%);
+    border-radius: 19px;
+}
+
+.register-btn-home {
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.register-btn-home a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 100px;
+    background: linear-gradient(270deg, #FDD50B 0%, #BD9E00 100%);
+    border-radius: 19px;
+}
+
+.register-btn-home {
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+ul.banner-list-home li:nth-child(2) a {
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 16px;
+}
+
+ul.banner-list-home li:nth-child(3) a {
+    font-family: 'Josefin Sans';
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+ul.banner-list-home {
+    color: #fff;
+}
+
+
+
+
+.slick-slide {
+    transform: scale(0.5);
+  }
+  
+  .slick-center {
+    transform: scale(1.3);
+  }
+
+  .vertical-slide-part {
+    position: relative;
+}
+
+  .container {
+    position: absolute;
+    width: 300px;
+    top: -90%;
+    right: 40px;
+    height: 100px;
+}
+
+button.slick-arrow.slick-prev {
+    top: 50%;
+    margin-top: -230px;
+    left: 100%;
+    z-index: 99;
+    opacity: 1 !important;
+    transform: rotate(90deg);
+    background: #000;
+    border-radius: 50%;
+    margin-left: -90px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #ffd500;
+    opacity: 1;
+    left: 0px;
+    position: relative;
+    top: 1px;
+}
+
+button.slick-arrow.slick-next {
+    bottom: 50%;
+    margin-bottom: -230px;
+    left: 100%;
+    z-index: 99;
+    opacity: 1 !important;
+    transform: rotate(90deg);
+    background: #000;
+    border-radius: 50%;
+    top: auto;
+    margin-left: -80px;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #f7d00b !important;
+    opacity: 1 !important;
+}
+
+.slick-track .slick-slide img {
+    height: 170px;
+}
+
+@media (max-width:767.98px){
+
+
+    .cricimg, .video-cric {
+        margin-top: 0;
+        z-index: 0;
+        position: relative;
+    }
+    .banner-caption h1 {
+        font-size: 40px;
+    }
+    .register-btn-home a {
+        padding: 15px 55px;
+    }
+    ul.banner-list-home li a {
+        display: inline-block;
+    }
+    .vertical-slide-part .container {
+        position: relative;
+        width: 300px;
+        top: 0;
+        right: 0;
+        height: 100px;
+    }
+    .vertical-slide-part{display: none;}
+}

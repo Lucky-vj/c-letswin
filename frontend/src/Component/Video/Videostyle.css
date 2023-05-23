@@ -1,0 +1,53 @@
+.cricimg img, .video-cric video {
+    width: 100%;
+}
+
+.cricimg, .video-cric {
+    margin-top: -185px;
+    z-index: 0;
+    position: relative;
+}
+
+.video-cric::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -5px;
+    background: #00000075;
+}
+
+.add-banner-right-in-video {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    text-align: left;
+    z-index: 99;
+    z-index: 9999;
+}
+
+.add-banner-right-in-video h4 {
+    font-size: 20px;
+    font-family: Josefin Sans !important;
+    padding-top: 50px;
+}
+
+.add-banner-right-in-video h2 {
+    font-size: 30px;
+    margin: 10px 0 0;
+    font-family: Josefin Sans !important;
+    font-weight: 600;
+}
+
+.add-banner-right-in-video button {
+    background: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+}
+
+.adver-card{
+background: #F7D00B !important;
+border-radius: 12px !important;
+}

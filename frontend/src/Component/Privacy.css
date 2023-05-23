@@ -1,0 +1,23 @@
+.privacty-policy-content {
+    padding: 30px;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+}
+
+.privacty-policy-content p {
+    margin: 0px;
+}
+
+.privacypolicy-page .homefooter .MuiGrid-root.MuiGrid-item:first-child {
+    display: none;
+}
+
+.privacypolicy-page .homefooter .MuiGrid-root.MuiGrid-item:nth-child(2) {
+    max-width: 100% !important;
+    flex-basis: 100%;
+}
+
+.privacypolicy-page .homefooter .MuiGrid-root.MuiGrid-item:nth-child(2) .footer-link ul {
+    justify-content: center;
+}

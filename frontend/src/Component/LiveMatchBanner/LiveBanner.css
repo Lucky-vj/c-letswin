@@ -1,0 +1,286 @@
+button.owl-prev span, button.owl-next span {
+    color: #fff;
+    font-size: 28px;
+    background: #a2a4ab;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 1;
+    border-radius: 50%;
+}
+
+.owl-nav {
+    position: absolute;
+    top: -79px;
+    right: 15px;
+    display: block !important;
+}
+
+button.owl-prev {
+    margin-right: 10px;
+}
+
+
+h3.right-cont-head-recommend {
+    margin-top: 0px;
+    padding-top: 55px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-item .item {
+    background: transparent;
+    border-radius: 8px;
+}
+
+
+.owl-item .item h5 {
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+h6.channel, h3.league-name, h6.no-of-betters {
+    margin: 0px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif !important;
+    padding-left: 5px;
+}
+h6.channel, h6.no-of-betters {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+}
+
+h3.league-name {
+    font-size: 14px;
+    margin: 4px 0;
+    color: #fff;
+}
+
+.predict-link {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.predict-link a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(197, 197, 197, 0.8);
+    border-radius: 11.5px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif !important;
+    position: relative;
+}
+
+.predict-link a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -8px;
+    background: #fff;
+}
+
+.owl-carousel {
+    padding-left: 20px;
+}
+
+.owl-carousel .owl-item:hover .item {
+    /* background: linear-gradient(270deg, #FDD50B 0%, #BD9E00 100%); */
+    border-radius: 8px;
+}
+
+.event-carousel .owl-item img {
+    display: block;
+    width: 100% !important;
+}
+
+.item.top-match-caousel {
+    background: #fff !important;
+    padding: 20px 10px;
+    border: 2px solid #F8F8F8;
+}
+
+.item.top-match-caousel img.oponent-img {
+    width: 20px !important;
+}
+
+h5.head-top-match {
+    margin: 0px !important;
+    color: #807d7d !important;
+    text-align: center;
+    font-size: 15px !important;
+}
+
+.item.top-match-caousel img.oponent-img-big {
+    width: 20px !important;
+    display: inline-block;
+}
+
+.item.top-match-caousel img.oponent-img-big:first-child{
+    position: relative;
+    top:2px;
+    margin-right: 5px;
+}
+
+h4.timimgs-bet-foot {
+    margin-top: 0px;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+span.timimgs-bet-foot-bot {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+
+h4.timimgs-bet-foot {
+    margin-top: 0px;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+span.timimgs-bet-foot-bot {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+
+h3.oponent-11, h3.oponent-22 {
+    text-align: left;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 20px;
+}
+
+h3.oponent-11 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: #000;
+}
+
+.Top-players-for-football.top-matches-football {
+    border-bottom: none !important;
+}
+
+.live-banner-outer{padding-left: 0px !important;}
+
+.item.live-banner-caousel {
+    background: #FDD50B !important;
+    border-radius: 0px !important;
+}
+
+.item.live-banner-caousel .top-football-score img {
+    width: 25px !important;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.lnf-cls {
+    text-align: left;
+}
+
+.left-football-score {
+    padding: 30px 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h6.bannaer-bottom-genre {
+    font-family: Josefin Sans !important;
+    margin-bottom: 20px !important;
+    color: #fff;
+}
+
+h4.live-team-match-one {
+    font-family: Josefin Sans !important;
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+h4.live-team-match-two {
+    font-family: Josefin Sans !important;
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.owl-carousel .owl-item .lmfrg img {
+    width: 65% !important;
+    margin: 0 auto;
+}
+
+.live-banner-outer .owl-nav {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    display: none !important;
+}
+
+.bet-badge-comn {
+    font-family: Josefin Sans !important;
+    padding: 8px 10px;
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 700 !important;
+    color: #000 !important;
+}
+
+.football-bets-in-banner {
+    text-align: left;
+}
+
+.bet-badge-comn span {
+    font-weight: 400 !important; 
+}
+
+.bet-badge-4.bet-badge-comn {
+    background: rgba(0, 0, 0, 0.67);
+    color: #fff !important;
+}
+
+/* .live-banner-outer.owl-loaded .owl-dots {
+    display: block !important;
+} */
+
+@media (max-width:767.98px){
+
+    .owl-carousel{padding-left: 0px;}
+    .right-cont-head-recommend{padding-left: 5px;}
+    .owl-nav{right: 0px;}
+    .owl-carousel .betting-img img{margin: 0 auto;}
+    .bet-badge-comn{margin-bottom: 5px;}
+    .owl-carousel .owl-item .lmfrg img {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .top-match-caousel-outer .owl-nav {
+        top: -120px !important;
+        right: 0px !important;
+    }
+}

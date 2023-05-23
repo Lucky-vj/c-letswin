@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.tab-mid-part-tabs span.MuiTabs-indicator {
+    background-color: #f7d00b;
+    height: 3px;
+}
+.tab-mid-part-tabs .Mui-selected{color: #000 !important}
+
+.tab-mid-part-tabs button{font-size: 14px;font-weight: 700;}
+
+.tab-mid-part-tabs {
+    border: none !important;
+}
+
+.scoreboard, .tab-mid-part-tabs button, .tab-mid-part p.red-status-highlite {
+    font-family: Josefin Sans !important;
+}
+
+.tab-mid-part p, .tab-mid-part table th, .tab-mid-part table td {
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+table tr th, table tr td {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}

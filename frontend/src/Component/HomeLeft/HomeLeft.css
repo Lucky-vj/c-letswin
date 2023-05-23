@@ -1,0 +1,122 @@
+.tabpanel-news-tabs .MuiBox-root {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.Cricketanbig img {
+    width: 100%;
+}
+
+.Cricketanbig {
+    margin-top: 0px;
+}
+
+.newsbrief h5 {
+    margin: 20px 0;
+    color: #FDD50B;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.newsbrief {
+    text-align: left;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.newsbrief h5 span:last-child {
+    color: #999999;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.newsbrief span.dot-divide {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #999999;
+    margin: 0 15px;
+}
+
+.newsbrief h3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.newsbrief h4 {
+    color: #ECECEC !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.team-logo{text-align: left;}
+
+.team-logo img {
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.date-time-occur {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.date-time-occur span {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.date-time-occur {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.date-time-occur span {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.news-img img {
+    width: 100%;
+}
+
+.news-read {text-align: left;}
+
+.news-read h5 {
+    margin: 20px 0 !important;
+    color: #FDD50B;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.news-read h3 {
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.home-content-part-cls .Mui-selected {
+    color: #f0ca09 !important;
+    font-weight: 700 !important;
+}
+
+.home-content-part-cls span.MuiTabs-indicator {
+    background: #f0ca09;
+    height: 3px;
+}
+
+div#lendhty-news {
+    border-top: 1px solid #F6F6F6;
+    padding-top: 20px;
+}

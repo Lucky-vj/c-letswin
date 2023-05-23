@@ -1,0 +1,43 @@
+.topwinner-block .item h5 {
+    font-size: 18px;
+    min-height: 20px;
+}
+
+.topwinner-block h5.yellow-color {
+    margin-top: 10px !important;
+}
+
+.topwinner-block .betting-img img {margin: 0 auto;width: 174px !important; height: 116px !important;}
+
+.betting-img img {
+    min-height: 116px;
+    width: auto !important;
+}
+
+.topwinner-block .item {
+    background: transparent;
+}
+
+h5.yellow-color {
+    margin: 0px !important;
+    color: #efc909 !important;
+}
+
+h6.gp-class {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h6.gp-class span {
+    font-weight: 700;
+}
+
+.topwinner-block .owl-item:hover .item {
+    background: none !important;
+    border-radius: 0;
+}
+
+.topwinner-block h5 {text-align: center !important;}

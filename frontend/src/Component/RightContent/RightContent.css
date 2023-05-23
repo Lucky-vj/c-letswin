@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.css-1abc02a, .css-hn784z {
+    top: auto !important;
+    bottom: 30px;
+    right: 25px !important;
+    height: auto !important;
+    z-index: 99 !important;
+}
+
+.css-1abc02a button, .css-hn784z button {
+    opacity: 1;
+    background: transparent;
+    border: 3px solid #FDE04E;
+}
+
+.carouselouter {
+    position: relative !important;
+    overflow: visible !important;
+}
+.carouselouter::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    left: -50%;
+    top: -0.5px;
+}
+
+
+.target-live-scores {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.target-live-score {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.country {
+    margin: 30px 0 20px;
+}
+
+.country .MuiListItemButton-root, .League .MuiListItemButton-root {
+    padding-left: 0px;
+    margin: 5px 0;
+}
+
+span.country-list, span.league-list, .country .MuiListItemText-primary, .League .MuiListItemText-primary {
+    font-weight: 600;
+}
+
+span.country-list, span.league-list{text-transform: uppercase;font-weight: 700;}
+
+.top-block {
+    font-family: Josefin Sans !important;
+}
+
+.top-block h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.target-live-score-high.left {
+    text-align: left;
+    padding-left: 44px;
+}
+
+.first-batting-high, .secnd-batting-high {
+    color: #fff;
+}
+
+.first-batting-high h3, .secnd-batting-high h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px 0 5px !important;
+}
+
+.first-batting-high h3 span, .secnd-batting-high h3 span {
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 27px;
+}
+
+.scoreboard{
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h3.bottom-block-head {
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+h3.bottom-block-head {
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+span.cicket-font span {
+    color: #f7d00b;
+}
+
+h3.bottom-block-head > span {
+    color: #000;
+}
+
+h1.livehead span {
+    color: #000;
+    font-weight: 800;
+}
+
+h1.livehead {
+    font-weight: 400;
+}
+
+img.team1 {
+    width: 18px !important;
+    position: relative !important;
+    top: 0 !important;
+    margin-right: 8px !important;
+    height: 18px !important;
+}
+
+img.team2 {
+    width: 18px !important;
+    position: relative !important;
+    top: 0 !important;
+    margin-left: 5px !important;
+    height: 18px !important;
+    margin-right: 8px !important;
+}
+
+.football-score {
+    background: #fff;
+    padding: 20px 8px;
+    border-radius: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.block-point-outer {
+    display: flex;
+    margin-top: 24px;
+    padding-left: 40px;
+}
+
+.block-point-1, .block-point-2 {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    height: 30px;
+}
+
+.block-point-1 {
+    margin-right: 20px;
+    height: 30px;
+}
+
+span.team-name {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 5px 0 10px;
+    font-weight: 400;
+    color: #000;
+}
+
+img.team1-banner-point, img.team2-banner-point {
+    width: 21px;
+    position: relative;
+    top: 5px;
+}
+
+span.team-points {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carouselgrid {
+    background: #f8f8f8;
+    padding-top:0px !important;
+    padding-left: 0px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.css-hn784z {
+    display: none;
+}
+
+.css-1m9128y{
+    position: absolute;
+    right: 35px;
+    border: 45px;
+    z-index: 9;
+    margin-top: 0 !important;
+    width: auto !important;
+    bottom: 45px;
+}
+
+.css-1m9128y button:last-child {
+    position: relative;
+    left: 25px;
+}
+
+.css-1m9128y button:first-child {
+    position: relative;
+    right: 40px;
+}
+
+.football-score span {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.target-live-scores p {
+    width: 100%;
+    color: #000;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.target-live-scores > div {
+    width: 100%;
+    text-align: center;
+}
+
+.football-score div {
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* .total-tour-match-block {
+    justify-content: space-around !important;
+} */
+
+.team-opnt-1, .team-opnt-2 {
+    flex-direction: row-reverse !important;
+    display: flex;
+    align-items: center;
+}
+
+.tour-name-match {
+    margin-bottom: 10px;
+}
+
+.team-name-match-1, .team-name-match-2 {
+    width: 70px;
+}
+
+.football-score.cricket-league-sideblck {
+    background: #fff;
+    padding: 20px 8px !important;
+    border-radius: 10px !important;
+    cursor: context-menu !important;
+    margin-bottom: 15px !important;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0px 0px 1px grey;
+    border: none;
+    outline: none;
+}
+
+/* .football-score.cricket-league-sideblck div {
+    width: 100%;
+} */
+
+.league-football-rght{margin-bottom: 20px;}
+
+.margin-tb{margin: 20px 0;cursor: pointer;}
+
+.total-tour-match-block {
+    width: 100% !important;
+    justify-content: space-between !important;
+    margin-bottom: 10px;
+    /* cursor: pointer !important; */
+}

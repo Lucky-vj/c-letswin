@@ -1,0 +1,156 @@
+.topwinner-block .item h5 {
+    font-size: 18px;
+}
+
+.betting-img img {
+    min-height: 116px;
+    width: auto !important;
+}
+
+.topwinner-block .item {
+    background: transparent;
+}
+
+h5.yellow-color {
+    margin: 0px !important;
+    color: #efc909 !important;
+}
+
+h6.gp-class {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h6.gp-class span {
+    font-weight: 700;
+}
+
+.topwinner-block .owl-item:hover .item {
+    background: none !important;
+    border-radius: 0;
+}
+
+.Top-players-for-football h6 {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.Top-players-for-football h5 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.Top-players-for-football h5 span {
+    color: #000;
+}
+
+.Top-players-for-football h6 {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.Top-players-for-football h5 {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.Top-players-for-football h5 span {
+    color: #000;
+}
+
+h5.white-color-emerging {
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-size: 16px !important;
+    text-align: center;
+}
+
+h5.yellow-color-emerging {
+    text-align: center;
+    color: #000000 !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    margin-top: 0px !important;
+}
+
+.Top-players-for-football .betting-img-emerging img {
+    margin: 0 auto;
+    width: 60% !important;
+}
+
+.Top-players-for-football {
+    padding: 40px 0 20px;
+    border-bottom: 10px double #cccccc3d;
+}
+
+.betting-img-popular-league img{width: 30px !important;}
+
+.item.pplr-league-item.red-bg {
+    background: #F04E3F;
+    padding: 20px;
+}
+
+.item.pplr-league-item.yellow-bg {
+    padding: 20px;
+    background: #FDCF13;
+}
+
+.item.pplr-league-item.orange-bg {
+    padding: 20px;
+    background: #F78D28;
+}
+
+.item.pplr-league-item.blue-bg {
+    padding: 20px;
+    background: #30EBF0;
+}
+
+.item.pplr-league-item.green-bg {
+    padding: 20px;
+    background: #00FF86;
+}
+
+h5.white-color-popular-league {
+    font-size: 14px !important;
+    margin-bottom: 0px !important;
+}
+
+h5.yellow-color-popular-league {
+    margin-top: 0px !important;
+}
+
+.betting-img-popular-league {
+    min-height: 40px;
+}
+
+.top-poplar-league{padding-left: 0 !important;}
+
+.top-poplar-league .owl-item:hover .item {
+    background: inherit !important;
+    border-radius: 8px;
+}
+
+.top-poplar-league .owl-nav {
+    position: absolute;
+    top: -79px;
+    right: 15px;
+    display: block !important;
+}
+
+.top-poplar-league .owl-item:hover .item{background: #8c8686 !important; border-radius: 8px !important;}
+
+@media (max-width:767.98px){
+
+    .top-poplar-league .owl-nav {
+        top: -120px !important;
+        right: 0px !important;
+    }
+
+}
